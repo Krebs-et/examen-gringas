@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El examen para el G-Ringas">
+    <title>Examen U2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="flex">
+        <p>Bienvenido al formulario </p>
+    </nav>
+
+    <form action="#" class="flex">
+        <label for="name">Nombre:</label>
+        <input minlength="30" maxlength="50" required type="text" name="name" class="campoForm name">
+        <label for="email">Email:</label>
+        <input minlength="10" maxlength="25" required type="email" name="email" class="campoForm email">
+        <label for="edad">Edad:</label>
+        <input min="15" max="70" max="" required type="number" name="edad" class="campoForm edad">
+        <label for="pais">País</label>
+        <select class="campoForm pais" required name="pais">
+            <option value="">Elige tu país</option>
+            <option value="mx">México</option>
+            <option value="us">Estados Unidos</option>
+            <option value="can">Canadá</option>
+            <option value="cn">China</option>
+            <option value="jp">Japón</option>
+        </select>
+
+        <button class="guardar" id="guardar">Guardar</button>
+
+        <p id="alerta" class="alertaRed hidden flex">Este es un mensaje de alerta</p>
+
+    </form>
+
+</body>
+
+</html>

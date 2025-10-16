@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+form {
+    max-width: 400px;
+    padding: 18px;
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px auto;
+}
+
+.campoForm {
+    padding: 4px 18px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.alertaGreen {
+    width: 100%;
+    background-color: rgb(221, 238, 221);
+    height: 90px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.alertaRed {
+    width: 100%;
+    background-color: rgb(238, 221, 221);
+    height: 90px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.guardar {
+    margin: 0 auto;
+    width: 80px;
+    padding: 8px;
+    border-radius: 10px;
+
+}
